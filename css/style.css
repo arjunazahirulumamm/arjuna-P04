@@ -1,0 +1,157 @@
+:root {
+    --warna-utama: #000000;
+    --warna-hover: #f9fbf9;
+    --warna-latar: #f5f8f7;
+    --warna-teks: #0b0404;
+    --warna-putih: #cc9d9d;
+}
+
+body {
+    color: var(--warna-teks);
+}
+
+.navbar,
+footer {
+    background-color: var(--warna-utama);
+}
+
+.hero {
+    background-color: var(--warna-latar);
+}
+
+.bagian h2,
+.card-title {
+    color: var(--warna-utama);
+}
+
+.btn-success {
+    background-color: var(--warna-utama);
+    border-color: var(--warna-utama);
+}
+
+.btn-success:hover {
+    background-color: var(--warna-hover);
+    border-color: var(--warna-hover);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #333;
+}
+
+.navbar {
+    background-color: #010202;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.logo-header {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.hero {
+    background-image: url("../img/image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    padding: 90px 20px;
+    color: rgb(248, 250, 247);
+
+    position: relative;
+    z-index: 1;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+    z-index: -1;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.bagian {
+    padding: 55px 0;
+}
+
+.bagian h2 {
+    margin-bottom: 20px;
+    color: #2865e8;
+}
+
+.bagian p {
+    line-height: 1.8;
+}
+
+.card {
+    border: 1px solid #cebf13;
+    border-radius: 5px;
+}
+
+.card-title {
+    color: #2649e6;
+}
+
+form {
+    max-width: 650px;
+}
+
+footer {
+    background-color: #010302;
+    color: rgb(247, 244, 244);
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .hero {
+        padding: 60px 15px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .bagian {
+        padding: 40px 15px;
+    }
+}
+
+#bidang h2 {
+    color: #72d29a;
+}
+
+
+#bidang .card-title {
+    color: #2d96e6;
+}
+#bidang h2 {
+    color: #0d6efd;
+}
